@@ -1,0 +1,24 @@
+.cardInfo {
+    border: 2px solid #aea6a675;
+    border-radius: 0px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 6rem;
+    align-items: start;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.titleCardInfo {
+    height: 25px;
+    margin-top: -25px;
+    margin-left: -2px;
+    margin-bottom: 0px;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 2px solid #aea6a675;
+    border-left: 2px solid #aea6a675;
+    border-right: 2px solid #aea6a675;
+    border-radius: 1rem 1rem 0px 0px;
+}

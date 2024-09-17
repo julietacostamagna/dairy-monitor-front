@@ -1,0 +1,89 @@
+.namePopUp {
+	/* font-family: 'Digital'; */
+	font-size: 1.2rem !important;
+	text-shadow: 1px 1px 1px #565656;
+}
+.textoPopUp {
+	/* font-family: 'Digital'; */
+	font-size: 1.3rem !important;
+}
+
+.marcador_ubicacion_map {
+	width: 2rem;
+	height: 2rem;
+	display: block;
+	position: relative;
+	border-radius: 3rem 3rem 0;
+	transform: rotate(45deg);
+	border: 1px solid #ccc0;
+}
+.interior_marcador_map {
+	background: #ffffff;
+	width: 1.3rem;
+	height: 1.3rem;
+	display: block;
+	position: relative;
+	border-radius: 999px;
+	margin: auto;
+	margin-right: 5px;
+	margin-top: 4px;
+	transform: rotate(-45deg);
+}
+
+.texto_ubicacion_map {
+	color: black !important;
+	margin-left: 2px;
+	font-size: 14px;
+}
+
+.marcador_working {
+	width: 0;
+	height: 0;
+	border-left: 1.25rem solid transparent;
+	border-right: 1.25rem solid transparent;
+	border-bottom: 2.5rem solid #fff300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.interior_working {
+	border-left: 0.9rem solid transparent;
+	border-right: 0.9rem solid transparent;
+	border-bottom: 1.8rem solid #ffffff;
+	top: 0.5rem;
+	position: fixed;
+}
+.layers-control-base .leaflet-control-layers-toggle {
+	background-image: url('src/modules/map/utils/asset/icon/maps-and-location.png');
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+
+.leaflet-control-layers-toggle .layers-control-overlay {
+	background-image: url('../asset/icon/maps-and-location.png') !important;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+
+.leaflet-popup-content-wrapper {
+	background-color: #ffffff00 !important;
+	box-shadow: 0px 0px 0px transparent !important;
+}
+.leaflet-popup-close-button {
+	display: none !important;
+}
+.leaflet-popup-content {
+	margin: 0px !important;
+}
+.leaflet-popup-tip {
+	display: none !important;
+}
+
+.leaflet-tooltip {
+	background-color: #ffffff00 !important;
+	box-shadow: 0px 0px 0px transparent !important;
+	border: 0px !important;
+}
